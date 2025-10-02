@@ -65,3 +65,48 @@ h6 {
     color: var(--primary-color);
 }
 
+/* Carousel caption custom colors */
+.carousel-caption h2 {
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+/* Card hover effect - using only color changes */
+.card:hover {
+    border-color: var(--primary-color);
+}
+
+/* Footer link hover color */
+footer a:hover {
+    color: var(--accent-color) !important;
+}
+
+/* Accordion button custom colors */
+.accordion-button:not(.collapsed) {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.accordion-button:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(139, 92, 246, 0.25);
+}
+
+/* Modal header custom color */
+.modal-header {
+    background-color: var(--light-bg);
+}
+
+/* Form focus state color */
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(139, 92, 246, 0.25);
+}
+
+/* Dropdown hover color */
+.dropdown-item:hover {
+    background-color: var(--light-bg);
+    color: var(--primary-color);
+}
+
