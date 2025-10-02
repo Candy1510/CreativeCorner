@@ -110,3 +110,42 @@ footer a:hover {
     color: var(--primary-color);
 }
 
+/*  IMAGE SIZING  */
+
+/* Carousel Images 
+ */
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Responsive carousel height for mobile */
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 300px;
+    }
+}
+
+/* Project Card Images - Uniform size */
+.card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Modal Images - Responsive with max size */
+.modal-body img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Ensure all images are responsive by default */
+img {
+    max-width: 100%;
+    height: auto;
+}
