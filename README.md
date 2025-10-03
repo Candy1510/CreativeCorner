@@ -3,7 +3,7 @@
 A responsive arts and crafts website built with Bootstrap 5.3 featuring interactive components, YouTube tutorials, and free pattern resources.
 
 ## Live Demo
-[View Live Site](https://candy1510.github.io/)
+[View Live Site](https://candy1510.github.io/CreativeCorner/)
 
 ## Project Overview
 This website showcases various arts and crafts projects, tutorials, and resources for creative enthusiasts of all skill levels. It features integrated YouTube tutorials and links to free downloadable patterns for origami, sewing, coloring, and embroidery.
